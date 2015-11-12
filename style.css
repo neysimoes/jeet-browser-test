@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  background: rgba(0,0,0,0.05);
+}
+h2 {
+  text-align: center;
+}
+.ex1 {
+  *zoom: 1;
+  width: auto;
+  max-width: 960px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ex1:before,
+.ex1:after {
+  content: '';
+  display: table;
+}
+.ex1:after {
+  clear: both;
+}
+.ex1 div {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+  height: 50px;
+  margin-bottom: 10px;
+  background: #ff0;
+}
+.ex1 div:before,
+.ex1 div:after {
+  content: '';
+  display: table;
+}
+.ex1 div:after {
+  clear: both;
+}
+.ex1 div:nth-child(3n) {
+  margin-right: 0%;
+  float: right;
+}
+.ex1 div:nth-child(3n+1) {
+  clear: both;
+}
+.ex2 {
+  *zoom: 1;
+  width: auto;
+  max-width: 960px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ex2:before,
+.ex2:after {
+  content: '';
+  display: table;
+}
+.ex2:after {
+  clear: both;
+}
+.ex2 div {
+  height: 50px;
+}
+.ex2 .left {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 33.33333333333333%;
+  margin-left: 33.33333333333333%;
+  margin-right: 0%;
+  background: #f00;
+}
+.ex2 .left:before,
+.ex2 .left:after {
+  content: '';
+  display: table;
+}
+.ex2 .left:after {
+  clear: both;
+}
+.ex2 .right {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 33.33333333333333%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background: #00f;
+}
+.ex2 .right:before,
+.ex2 .right:after {
+  content: '';
+  display: table;
+}
+.ex2 .right:after {
+  clear: both;
+}
+.ex3 {
+  *zoom: 1;
+  width: auto;
+  max-width: 960px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100px;
+  background: #999;
+  position: relative;
+}
+.ex3:before,
+.ex3:after {
+  content: '';
+  display: table;
+}
+.ex3:after {
+  clear: both;
+}
+.ex3 .center-middle {
+  position: absolute;
+  transform-style: preserve-3d;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 100px;
+  background: #000;
+}

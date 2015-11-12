@@ -1,0 +1,40 @@
+@import 'jeet';
+
+*
+	margin 0
+	padding 0
+	
+edit()
+h2
+	text-align center
+
+.ex1
+	center(960px)
+	div
+		col(1/3, cycle: 3)
+		height 50px
+		margin-bottom 10px
+		background yellow
+		
+.ex2
+	center(960px)
+	div
+		height 50px
+	.left
+		span(1/3, 1/3)
+		background red
+	.right
+		span(1/3)
+		background blue
+		
+.ex3
+	center(960px)
+	height 100px
+	background #999
+	position relative
+	.center-middle
+		align()
+		height 50px
+		width 100px
+		background black
+	
